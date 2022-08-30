@@ -1,8 +1,8 @@
 pkgname=minizip
-pkgver=3.0.4
+pkgver=master
 pkgrel=2
 url="https://github.com/v-atamanenko/minizip-ng"
-source=("https://github.com/v-atamanenko/minizip-ng/archive/refs/heads/master.zip")
+source=("https://github.com/v-atamanenko/minizip-ng/archive/refs/heads/$pkgver.zip")
 sha256sums=(SKIP)
 
 build() {

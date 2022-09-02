@@ -13,7 +13,7 @@ prepare() {
 
 build() {
   cd $pkgname-$pkgver
-  ./configure --host=arm-vita-eabi --prefix=$prefix --disable-shared --enable-static --enable-fixed-point
+  ./configure --host=arm-vita-eabi --prefix=$prefix --disable-shared --enable-static --enable-fixed-point --disable-rtcd
   make -j$(nproc)
 }
 
